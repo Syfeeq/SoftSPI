@@ -1,14 +1,15 @@
 #include <SPI.h>
 #include <SoftSPI.h>
 
-// Create a new SPI port with:
-// Pin 2 = MOSI,
-// Pin 3 = MISO,
-// Pin 4 = SCK
-SoftSPI mySPI(2, 3, 4);
+// Create a new SPI port instance:
+SoftSPI mySPI;
 
 void setup() {
-	mySPI.begin();
+	// Define the pins:
+	// Pin 2 = MOSI,
+	// Pin 3 = MISO,
+	// Pin 4 = SCK
+	mySPI.begin(2, 3, 4);
 	Serial.begin(9600);
 }
 
