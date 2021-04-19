@@ -29,9 +29,11 @@
  */
 
 /*
-  Forked by Syfeeq (Bartosz Kozłowski) in order to adapt this library to work with DAC_MCP49xx library.
+  Forked by bartoszxkozlowski (Bartosz Kozłowski) in order to adapt this library
+  to work with DAC_MCP49xx library.
   Original DAC_MCP49xx library: https://github.com/tomcombriat/DAC_MCP49XX
-  Modified DAC_MCP49xx compatible with this SoftSPI modificaton: https://github.com/Syfeeq/DAC_MCP49xx
+  Modified DAC_MCP49xx compatible with this SoftSPI modificaton:
+  https://github.com/bartoszxkozlowski/DAC_MCP49xx
   Original Soft SPI library: https://github.com/MajenkoLibraries/SoftSPI
 */
 
